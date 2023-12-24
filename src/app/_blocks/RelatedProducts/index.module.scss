@@ -2,7 +2,7 @@
 
 .relatedProducts {
   width: 100%;
-  margin-top: 1rem;
+  padding-top: var(--base);
 }
 
 .introContent {
@@ -21,16 +21,13 @@
   gap: 30px;
 
   @include mid-break {
-  gap: 20px;
+    gap: 20px;
   }
-  
+
   @include small-break {
-  grid-template-columns: 100%;
+    grid-template-columns: 100%;
   }
 }
-  
-
-
 
 .title {
   font-weight: 400;
