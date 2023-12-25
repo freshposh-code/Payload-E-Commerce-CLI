@@ -39,7 +39,7 @@ const navItems = footer?.navItems || []
                         <Image src='/logo-white.svg' alt='' width={170} height={50} />
                     </Link>
 
-                    <p>{footer.copyright}</p>
+                    <p>&copy;{footer.copyright}</p>
 
                     <div className={classes.socialinks}>
                         {navItems.map((item) => {
