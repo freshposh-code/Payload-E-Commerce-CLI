@@ -1,6 +1,6 @@
 'use client'
 
-import { createContext, ReactNode, SetStateAction, useContext, useState } from 'react'
+import React, { createContext, SetStateAction, useContext, useState } from 'react'
 
 interface IContextType {
   categoryFilters: string[]
